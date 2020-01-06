@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let userName = prompt('ai the ? ', '');
+        if (userName == 'Admin'){
+            let pass = prompt('mat khau ?', '');
+            if (pass == 'TheMaster'){
+                document.write('xin chao');
+            }else if (pass == 'null') {
+                alert('Huy Bo');
+            }else {
+                alert('sai mat khau');
+            }
+        }else if (userName == 'null'){
+            alert('huy bo ');
+        }else {
+            alert('toi khong biet ban');
+        }
+    </script>
+
+</body>
+</html>
